@@ -74,3 +74,9 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+/* ===== EFECTO FADE-IN ===== */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .6s ease-out, transform .6s ease-out;
+}
